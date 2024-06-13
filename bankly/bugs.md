@@ -1,0 +1,2 @@
+- BUG #1 middle ware auth.js authUser does not verify the token with jwt.verify
+- BUG #2 No validation of inputs - could cause crash to server or server to lock up if bad data was sent
